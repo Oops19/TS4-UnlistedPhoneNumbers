@@ -1,33 +1,10 @@
 # TS4 Unlisted Phone Numbers
-Clone of one abandoned mod created by scumbumbo.
+Clone of the abandoned mod by scumbumbo.
 
-The .package file has been copied with these changes:
-1. An additional filter has been added.
-2. Some translations have been added.
+The .package file is copied 1:1 so one might use the original one.
+The .ts4script has been fixed for the current TS4 version.
 
-The script files have been fixed for the current TS4 version.
-Redundant code has been removed and S4CL is used instead for injections.
-
-The interaction can be found in `Friendly > Exchange Numbers`. 
-It's not in Small Talk or any other sub category so you can't miss it. 
-In future it might be moved into 'Small Talk'.
-
-## Testing
-I tested this mod technically.
-It might still fail to work as expected while it writes a log file now.
-
-## Overrides
-'Drama Nodes' which contain one of these strings will not be affected:
-* Intro
-* MusicProductionStation
-* clubGatheringDramaNode_Default
-* Quirk_PublicNumber
-
-They are hard-coded right now while it would make a lot of sense to add them to a config file.
-Not sure if one would like to add there also
-* ActorCareer
-* HighSchool
-* Reputation
+Sources are included, anyhow in mod_sources and not in the ts4script file.
 
 # Addendum
 
